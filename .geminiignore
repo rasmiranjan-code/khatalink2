@@ -1,0 +1,29 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Cache & Compiled
+storage/cache/
+storage/logs/
+bootstrap/cache/
+.cache/
+
+# Build files
+public/build/
+public/hot/
+
+# Git
+.git/
+
+# Large data files
+*.sql
+*.dump
+database/dumps/
+
+# Media/uploads
+public/uploads/
+storage/app/public/
+
+# Log files
+*.log
+storage/logs/
