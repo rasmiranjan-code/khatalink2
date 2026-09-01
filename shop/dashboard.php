@@ -463,6 +463,13 @@ $recent_payments = $recent_payments->fetchAll();
                 <div class="w-11 h-11 bg-pink-100 text-pink-600 rounded-xl flex items-center justify-center transition-transform group-hover:scale-110"><i class="fas fa-chart-line"></i></div>
                 <span class="text-sm font-bold text-slate-700 group-hover:text-pink-700">Analytics</span>
             </a>
+        
+            <!-- Customer Behavior -->
+            <a href="customer_analytics.php" class="bg-white border border-slate-200 rounded-2xl p-4 flex flex-col items-center gap-3 hover:border-teal-500 hover:bg-teal-50 transition-all group">
+                <div class="w-11 h-11 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center transition-transform group-hover:scale-110"><i class="fas fa-users-cog"></i></div>
+                <span class="text-sm font-bold text-slate-700 group-hover:text-teal-700">Customer Insights</span>
+            </a>
+
 
             <!-- User Guide -->
             <a href="../guide.php" class="bg-white border border-slate-200 rounded-2xl p-4 flex flex-col items-center gap-3 hover:border-amber-500 hover:bg-amber-50 transition-all group">
@@ -499,6 +506,9 @@ $recent_payments = $recent_payments->fetchAll();
                 <div class="w-11 h-11 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center transition-transform group-hover:scale-110"><i class="fas fa-receipt"></i></div>
                 <span class="text-sm font-bold text-slate-700 group-hover:text-orange-700">POS History</span>
             </a>
+            <a href="promotions.php" class="nav-link <?= ($current_page == 'promotions.php') ? 'active' : '' ?>">
+            <i class="fas fa-bullhorn"></i> Promotions
+        </a>
 
             <!-- Trust Score CIBIL -->
             <a href="customer_cibil.php" class="bg-white border border-slate-200 rounded-2xl p-4 flex flex-col items-center gap-3 hover:border-teal-500 hover:bg-teal-50 transition-all group">

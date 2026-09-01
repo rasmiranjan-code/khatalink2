@@ -1,3 +1,5 @@
 .env
 includes/service-account.json
 includes/cashfree_config.php
+ai/.env
+ai/venv/

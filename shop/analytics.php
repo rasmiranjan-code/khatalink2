@@ -136,6 +136,22 @@ foreach($top_customers as $tc) {
             </div>
         </div>
 
+        <!-- AI Analytics Card -->
+        <div class="bg-slate-900 rounded-[2rem] p-8 text-white relative overflow-hidden shadow-2xl shadow-slate-200 mb-8">
+            <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex items-center gap-6">
+                    <div class="hidden md:block w-16 h-16 bg-white/10 backdrop-blur-xl rounded-2xl flex-shrink-0 flex items-center justify-center text-3xl">
+                        🤖
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-black mb-1">AI Analytics</h3>
+                        <p class="text-slate-400 text-sm max-w-xl">Ask questions about your business data using natural language.</p>
+                    </div>
+                </div>
+                <button id="open-ai-chat-btn" class="bg-blue-600 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-xl transition-colors w-full md:w-auto flex-shrink-0">Open AI Analytics</button>
+            </div>
+        </div>
+
         <!-- Charts Row -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-8">
             <!-- Cash Flow Chart -->
@@ -158,24 +174,61 @@ foreach($top_customers as $tc) {
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- Insight Banner -->
-        <div class="bg-slate-900 rounded-[2rem] p-8 text-white relative overflow-hidden shadow-2xl shadow-slate-200">
-            <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-6">
-                <div>
-                    <div class="text-blue-400 text-[10px] font-black uppercase tracking-[0.3em] mb-2">Smart Insights</div>
-                    <h3 class="text-xl font-black mb-2">Automated Business Intelligence</h3>
-                    <p class="text-slate-400 text-sm max-w-xl">KhataLink analyzes every transaction in real-time. Use these graphs to identify peak credit seasons and improve your recovery rate.</p>
-                </div>
-                <div class="hidden md:block">
-                    <div class="w-16 h-16 bg-white/10 backdrop-blur-xl rounded-2xl flex items-center justify-center text-3xl">
-                        <i class="fas fa-brain"></i>
+<!-- AI Chat UI Overlay -->
+<div id="ai-chat-overlay" class="fixed inset-0 bg-slate-900/80 backdrop-blur-sm z-[2000] hidden flex items-center justify-center p-4">
+    <div class="bg-white w-full h-full max-w-4xl max-h-[90vh] rounded-2xl shadow-2xl flex flex-col">
+        <!-- Header -->
+        <div class="flex items-center justify-between p-4 border-b border-slate-200 flex-shrink-0">
+            <div>
+                <h2 class="text-lg font-bold text-slate-800">AI Analytics</h2>
+                <p class="text-xs text-slate-500">Your intelligent business data assistant</p>
+            </div>
+            <button id="close-ai-chat-btn" class="w-8 h-8 rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-800 transition-colors">&times;</button>
+        </div>
+
+        <!-- Chat Area -->
+        <div id="ai-chat-messages" class="flex-1 p-6 overflow-y-auto space-y-6">
+            <!-- Welcome Message -->
+            <div class="chat-message ai">
+                <div class="message-content">
+                    <p>Hi! I'm your KhataLink AI Analytics assistant. Ask me anything about your business data.</p>
+                    <div class="text-xs text-slate-500 mt-3">Suggested questions:</div>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <button class="suggestion-btn">What is my total sales?</button>
+                        <button class="suggestion-btn">Show my monthly sales.</button>
+                        <button class="suggestion-btn">What are my top products?</button>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Input Form -->
+        <div class="p-4 border-t border-slate-200 flex-shrink-0">
+            <form id="ai-chat-form" class="flex items-center gap-3">
+                <input type="text" id="ai-chat-input" placeholder="Ask anything about your business..." class="w-full border-slate-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition" autocomplete="off">
+                <button type="submit" class="bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors disabled:bg-blue-300">Send</button>
+            </form>
+        </div>
     </div>
 </div>
+
+<style>
+    .chat-message { display: flex; gap: 12px; max-width: 85%; }
+    .chat-message.user { margin-left: auto; flex-direction: row-reverse; }
+    .chat-message .message-content { padding: 12px 16px; border-radius: 18px; }
+    .chat-message.ai .message-content { background-color: #f1f5f9; color: #1e293b; border-top-left-radius: 4px; }
+    .chat-message.user .message-content { background-color: #2563eb; color: white; border-top-right-radius: 4px; }
+    .suggestion-btn { background: #e2e8f0; color: #475569; font-size: 12px; padding: 4px 10px; border-radius: 99px; border: 1px solid #e2e8f0; transition: all .15s; }
+    .suggestion-btn:hover { background: #dbeafe; color: #1d4ed8; border-color: #bfdbfe; }
+    .thinking-indicator .message-content { display: flex; align-items: center; gap: 8px; }
+    .thinking-indicator .dot { width: 6px; height: 6px; background-color: #94a3b8; border-radius: 50%; animation: bounce 1.2s infinite ease-in-out; }
+    .thinking-indicator .dot:nth-child(2) { animation-delay: -0.15s; }
+    .thinking-indicator .dot:nth-child(3) { animation-delay: -0.3s; }
+    @keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1.0); } }
+</style>
 
 <script>
 // Cash Flow Chart
@@ -289,6 +342,114 @@ function closeSidebar() {
     document.getElementById('sidebar').classList.remove('open');
     document.getElementById('overlay').classList.remove('show');
 }
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const overlay = document.getElementById('ai-chat-overlay');
+    const openBtn = document.getElementById('open-ai-chat-btn');
+    const closeBtn = document.getElementById('close-ai-chat-btn');
+    const chatForm = document.getElementById('ai-chat-form');
+    const chatInput = document.getElementById('ai-chat-input');
+    const messagesContainer = document.getElementById('ai-chat-messages');
+
+    const toggleChat = (show) => {
+        overlay.classList.toggle('hidden', !show);
+        if (show) chatInput.focus();
+    };
+
+    openBtn.addEventListener('click', () => toggleChat(true));
+    closeBtn.addEventListener('click', () => toggleChat(false));
+
+    const addMessage = (text, sender, isThinking = false) => {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `chat-message ${sender}`;
+        
+        let content = '';
+        if (isThinking) {
+            messageDiv.classList.add('thinking-indicator');
+            content = `<div class="message-content"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>`;
+        } else {
+            content = `<div class="message-content"><p>${text}</p></div>`;
+        }
+        messageDiv.innerHTML = content;
+        messagesContainer.appendChild(messageDiv);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        return messageDiv;
+    };
+
+    const handleQuery = async (question) => {
+        if (!question.trim()) return;
+
+        addMessage(question, 'user');
+        chatInput.value = '';
+        chatForm.querySelector('button').disabled = true;
+
+        const thinkingIndicator = addMessage('', 'ai', true);
+
+        try {
+            const response = await fetch('ajax_ai_handler.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question: question })
+            });
+
+            thinkingIndicator.remove();
+
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.statusText}`);
+            }
+
+            const result = await response.json();
+            let answerText = result.answer || "Sorry, I didn't get a valid response.";
+
+            // Future-proofing for structured data (tables, etc.)
+            if (result.intent === 'top_products' && result.data && result.data.products) {
+                const products = result.data.products;
+                if (products.length > 0) {
+                    let tableHtml = '<table class="w-full text-left text-sm mt-2">';
+                    tableHtml += '<thead><tr class="border-b"><th class="p-2">Product</th><th class="p-2 text-right">Revenue</th></tr></thead><tbody>';
+                    products.forEach(p => {
+                        tableHtml += `<tr class="border-b border-slate-100"><td class="p-2">${p.product_name}</td><td class="p-2 text-right">₹${parseFloat(p.revenue).toLocaleString('en-IN')}</td></tr>`;
+                    });
+                    tableHtml += '</tbody></table>';
+                    answerText += tableHtml;
+                }
+            } else if (result.intent === 'customer_list' && result.data && result.data.customers) {
+                const customers = result.data.customers;
+                if (customers.length > 0) {
+                    let tableHtml = '<table class="w-full text-left text-sm mt-2">';
+                    tableHtml += '<thead><tr class="border-b"><th class="p-2">ID</th><th class="p-2">Name</th><th class="p-2">Phone</th></tr></thead><tbody>';
+                    customers.forEach(c => {
+                        tableHtml += `<tr class="border-b border-slate-100"><td class="p-2">${c.id}</td><td class="p-2">${c.name}</td><td class="p-2">${c.phone || '-'}</td></tr>`;
+                    });
+                    tableHtml += '</tbody></table>';
+                    answerText += tableHtml;
+                }
+            }
+
+            addMessage(answerText, 'ai');
+
+        } catch (error) {
+            console.error('AI Chat Error:', error);
+            thinkingIndicator.remove();
+            addMessage('Sorry, I couldn\'t connect to the analytics service. Please try again later.', 'ai');
+        } finally {
+            chatForm.querySelector('button').disabled = false;
+            chatInput.focus();
+        }
+    };
+
+    chatForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        handleQuery(chatInput.value);
+    });
+
+    messagesContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('suggestion-btn')) {
+            handleQuery(e.target.textContent);
+        }
+    });
+});
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

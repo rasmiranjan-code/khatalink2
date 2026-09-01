@@ -74,6 +74,7 @@ $stuck_payment_pages = ['stuck_payments.php','reconcile_ledger.php','reconcile_b
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 body{font-family:'Inter',sans-serif;background:#f1f5f9;min-height:100vh;}
@@ -105,7 +106,13 @@ body{font-family:'Inter',sans-serif;background:#f1f5f9;min-height:100vh;}
     display:flex;align-items:center;gap:6px;
     background:#fef2f2;border:1px solid #fecaca;color:#dc2626;
     font-size:13px;font-weight:600;padding:8px 16px;border-radius:10px;
-    text-decoration:none;transition:all .2s;cursor:pointer;font-family:'Inter',sans-serif;
+    text-decoration:none;transition:all .2s;cursor:pointer;font-family:'Inter',sans-serif;position:relative;
+}
+.btn-nuke{
+    background:#dc2626;color:#fff;border:1px solid #b91c1c;
+    font-size:11px;padding:8px 14px;border-radius:10px;
+    font-weight:700;text-transform:uppercase;letter-spacing:0.5px;
+    transition:all .2s;
 }
 .btn-logout:hover{background:#dc2626;color:#fff;border-color:#dc2626;}
 .mobile-menu-btn{
@@ -356,6 +363,11 @@ body{font-family:'Inter',sans-serif;background:#f1f5f9;min-height:100vh;}
         <a href="logout.php" class="btn-logout">
             <i class="fas fa-sign-out-alt"></i> Logout
         </a>
+        <?php if($admin_role == 'founder'): ?>
+            <button onclick="triggerFactoryReset()" class="btn-nuke" title="Factory Reset">
+                <i class="fas fa-skull-crossbones"></i>
+            </button>
+        <?php endif; ?>
     </div>
 </nav>
 
@@ -418,6 +430,10 @@ body{font-family:'Inter',sans-serif;background:#f1f5f9;min-height:100vh;}
         <a href="visitors.php" class="nav-link <?= ($current_page=='visitors.php')?'active':'' ?>">
             <span class="nav-icon"><i class="fas fa-chart-line"></i></span>
             Visitor Analytics
+        </a>
+        <a href="data_analytics.php" class="nav-link <?= ($current_page=='data_analytics.php')?'active':'' ?>">
+            <span class="nav-icon"><i class="fas fa-chart-bar"></i></span>
+            Data Analytics
         </a>
         <a href="queries.php" class="nav-link <?= ($current_page=='queries.php')?'active':'' ?>">
             <span class="nav-icon"><i class="fas fa-headset"></i></span>
@@ -982,5 +998,37 @@ new Chart(pieCtx, {
     }
 });
 </script>
+
+<?php if($admin_role == 'founder'): ?>
+<script>
+function triggerFactoryReset() {
+    Swal.fire({
+        title: 'ARE YOU ABSOLUTELY SURE?',
+        html: "This will <b>permanently delete</b> all shops, customers, orders, and transaction data.<br><br>Type '<b>RESET NOW</b>' to confirm.",
+        icon: 'warning',
+        input: 'text',
+        inputAttributes: { autocapitalize: 'off' },
+        showCancelButton: true,
+        confirmButtonText: 'RESET EVERYTHING',
+        confirmButtonColor: '#dc2626',
+        preConfirm: (input) => {
+            if (input !== 'RESET NOW') {
+                Swal.showValidationMessage('You must type "RESET NOW" to confirm.');
+            }
+        }
+    }).then(async (result) => {
+        if (result.isConfirmed) {
+            const res = await fetch('ajax_factory_reset.php', { method: 'POST' });
+            const data = await res.json();
+            if (data.success) {
+                Swal.fire('Success!', 'System has been reset.', 'success').then(() => location.reload());
+            } else {
+                Swal.fire('Error!', data.message || 'Reset failed.', 'error');
+            }
+        }
+    });
+}
+</script>
+<?php endif; ?>
 </body>
 </html>

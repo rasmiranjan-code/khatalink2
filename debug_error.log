@@ -5414,3 +5414,854 @@ Stack trace:
 [07-Jun-2026 01:13:39 Europe/Berlin] [API_HIT] /khatalink/customer/ajax_sync_cart.php | Speed: 3ms | IP: ::1
 [07-Jun-2026 01:13:43 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 6ms | IP: ::1
 [07-Jun-2026 01:20:57 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 9ms | IP: ::1
+[14-Jun-2026 06:45:54 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 136ms | IP: ::1
+[17-Jun-2026 07:57:07 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 315ms | IP: ::1
+[17-Jun-2026 07:58:18 Europe/Berlin] LOGIN_SUCCESS: User ID: 10, Type: customer (Web), IP: ::1
+[17-Jun-2026 07:58:38 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 10): {
+  "name": "projects/khatalink-63041/messages/dd13f2b9-2f13-495b-8177-25c54d428bbe"
+}
+
+[17-Jun-2026 07:58:40 Europe/Berlin] FCM HTTP 404 Response for customer (ID: 10): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[17-Jun-2026 07:58:40 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 21627ms | IP: ::1
+[17-Jun-2026 07:58:40 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 77ms | IP: ::1
+[17-Jun-2026 07:59:30 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 10ms | IP: ::1
+[17-Jun-2026 07:59:35 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 25ms | IP: ::1
+[17-Jun-2026 07:59:46 Europe/Berlin] LOGIN_SUCCESS: User ID: 8, Type: shop (Web), IP: ::1
+[17-Jun-2026 07:59:47 Europe/Berlin] FCM HTTP 200 Response for shop (ID: 8): {
+  "name": "projects/khatalink-63041/messages/7d590b89-dc3c-4424-baf0-55813cca54f4"
+}
+
+[17-Jun-2026 07:59:47 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 1007ms | IP: ::1
+[17-Jun-2026 11:29:47 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 57ms | IP: ::1
+[17-Jun-2026 07:59:48 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 16ms | IP: ::1
+[22-Jun-2026 11:53:43 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 135ms | IP: ::1
+[22-Jun-2026 11:53:52 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 80ms | IP: ::1
+[22-Jun-2026 11:54:00 Europe/Berlin] LOGIN_SUCCESS: User ID: 5, Type: admin, IP: ::1
+[22-Jun-2026 11:54:00 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 70ms | IP: ::1
+[22-Jun-2026 11:54:00 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 82ms | IP: ::1
+[22-Jun-2026 11:54:09 Europe/Berlin] PHP Warning:  Undefined array key "page_url" in D:\xampp\htdocs\khatalink\admin\visitors.php on line 145
+[22-Jun-2026 11:54:09 Europe/Berlin] PHP Warning:  Undefined array key "page_url" in D:\xampp\htdocs\khatalink\admin\visitors.php on line 146
+[22-Jun-2026 11:54:09 Europe/Berlin] PHP Warning:  Undefined array key "page_url" in D:\xampp\htdocs\khatalink\admin\visitors.php on line 145
+[22-Jun-2026 11:54:09 Europe/Berlin] PHP Warning:  Undefined array key "page_url" in D:\xampp\htdocs\khatalink\admin\visitors.php on line 146
+[22-Jun-2026 11:54:09 Europe/Berlin] [API_HIT] /khatalink/admin/visitors.php | Speed: 12ms | IP: ::1
+[22-Jun-2026 11:54:24 Europe/Berlin] [API_HIT] /khatalink/admin/geo_registry_manager.php | Speed: 12ms | IP: ::1
+[22-Jun-2026 11:54:34 Europe/Berlin] [API_HIT] /khatalink/admin/mall_control.php | Speed: 38ms | IP: ::1
+[22-Jun-2026 11:54:43 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 7ms | IP: ::1
+[22-Jun-2026 11:54:48 Europe/Berlin] [API_HIT] /khatalink/admin/error_monitoring.php | Speed: 10ms | IP: ::1
+[22-Jun-2026 11:55:10 Europe/Berlin] [API_HIT] /khatalink/admin/error_monitoring.php | Speed: 5ms | IP: ::1
+[22-Jun-2026 11:55:28 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 22ms | IP: ::1
+[22-Jun-2026 11:55:32 Europe/Berlin] [API_HIT] /khatalink/admin/health_check.php | Speed: 74ms | IP: ::1
+[22-Jun-2026 11:55:46 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 2ms | IP: ::1
+[22-Jun-2026 11:55:53 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 3ms | IP: ::1
+[22-Jun-2026 11:55:57 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 2ms | IP: ::1
+[22-Jun-2026 11:56:11 Europe/Berlin] [API_HIT] /khatalink/admin/mall_shops.php | Speed: 6ms | IP: ::1
+[22-Jun-2026 11:56:14 Europe/Berlin] [API_HIT] /khatalink/admin/mall_shop_details.php?id=8 | Speed: 14ms | IP: ::1
+[22-Jun-2026 11:56:18 Europe/Berlin] [API_HIT] /khatalink/admin/mall_shops.php | Speed: 2ms | IP: ::1
+[22-Jun-2026 11:56:21 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 7ms | IP: ::1
+[22-Jun-2026 11:56:37 Europe/Berlin] [API_HIT] /khatalink/admin/mall_shops.php | Speed: 3ms | IP: ::1
+[22-Jun-2026 11:56:49 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 9ms | IP: ::1
+[22-Jun-2026 11:56:54 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 3ms | IP: ::1
+[22-Jun-2026 11:57:16 Europe/Berlin] [API_HIT] /khatalink/admin/queries.php | Speed: 21ms | IP: ::1
+[22-Jun-2026 11:57:49 Europe/Berlin] [API_HIT] /khatalink/admin/settlements.php | Speed: 22ms | IP: ::1
+[22-Jun-2026 11:58:05 Europe/Berlin] [API_HIT] /khatalink/admin/reconcile_bonds.php | Speed: 5ms | IP: ::1
+[22-Jun-2026 11:58:09 Europe/Berlin] [API_HIT] /khatalink/admin/mall_control.php | Speed: 3ms | IP: ::1
+[22-Jun-2026 11:58:18 Europe/Berlin] [API_HIT] /khatalink/admin/mall_control.php | Speed: 24ms | IP: ::1
+[22-Jun-2026 11:58:23 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 12ms | IP: ::1
+[22-Jun-2026 11:58:28 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 4ms | IP: ::1
+[22-Jun-2026 11:58:35 Europe/Berlin] LOGIN_SUCCESS: User ID: 10, Type: customer (Web), IP: ::1
+[22-Jun-2026 11:58:36 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 10): {
+  "name": "projects/khatalink-63041/messages/a86e0439-9fca-435e-8d5f-23501e22d2b1"
+}
+
+[22-Jun-2026 11:58:37 Europe/Berlin] FCM HTTP 404 Response for customer (ID: 10): {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[22-Jun-2026 11:58:37 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 1624ms | IP: ::1
+[22-Jun-2026 11:58:37 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 31ms | IP: ::1
+[22-Jun-2026 15:28:46 Asia/Kolkata] [API_HIT] /khatalink/customer/Groceries_home.php | Speed: 3ms | IP: ::1
+[23-Jun-2026 09:44:13 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 161ms | IP: ::1
+[23-Jun-2026 10:04:18 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 11ms | IP: ::1
+[23-Jun-2026 10:04:41 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 4ms | IP: ::1
+[23-Jun-2026 10:04:41 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 3ms | IP: ::1
+[23-Jun-2026 10:04:48 Europe/Berlin] LOGIN_SUCCESS: User ID: 5, Type: admin, IP: ::1
+[23-Jun-2026 10:04:48 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 200ms | IP: ::1
+[23-Jun-2026 10:04:48 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 73ms | IP: ::1
+[23-Jun-2026 10:04:58 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 4ms | IP: ::1
+[23-Jun-2026 10:05:33 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 3ms | IP: ::1
+[23-Jun-2026 10:06:09 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 4ms | IP: ::1
+[23-Jun-2026 10:06:09 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 6ms | IP: ::1
+[23-Jun-2026 10:09:15 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 9ms | IP: ::1
+[23-Jun-2026 10:09:17 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 23ms | IP: ::1
+[23-Jun-2026 10:09:22 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 869ms | IP: ::1
+[23-Jun-2026 10:10:13 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php?table=payment_requests | Speed: 478ms | IP: ::1
+[23-Jun-2026 10:10:14 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php?table=bond_payments | Speed: 474ms | IP: ::1
+[23-Jun-2026 10:10:19 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php?table=db_access_logs | Speed: 335ms | IP: ::1
+[23-Jun-2026 10:10:22 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php?table=groceries_product_marketplace_cache | Speed: 274ms | IP: ::1
+[23-Jun-2026 10:10:43 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 426ms | IP: ::1
+[23-Jun-2026 10:10:43 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php?table=groceries_product_marketplace_cache | Speed: 247ms | IP: ::1
+[23-Jun-2026 10:10:51 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 16ms | IP: ::1
+[23-Jun-2026 10:11:01 Europe/Berlin] [API_HIT] /khatalink/admin/security_audit.php | Speed: 14ms | IP: ::1
+[23-Jun-2026 10:11:08 Europe/Berlin] [API_HIT] /khatalink/admin/health_check.php | Speed: 36ms | IP: ::1
+[23-Jun-2026 10:11:13 Europe/Berlin] [API_HIT] /khatalink/admin/health_check.php | Speed: 34ms | IP: ::1
+[23-Jun-2026 10:11:36 Europe/Berlin] [API_HIT] /khatalink/admin/security_audit.php | Speed: 9ms | IP: ::1
+[23-Jun-2026 10:11:40 Europe/Berlin] [API_HIT] /khatalink/admin/manage_coupons.php | Speed: 10ms | IP: ::1
+[23-Jun-2026 10:12:05 Europe/Berlin] [API_HIT] /khatalink/admin/error_monitoring.php | Speed: 16ms | IP: ::1
+[23-Jul-2026 20:22:38 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 15ms | IP: ::1
+[23-Jul-2026 20:22:58 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 125ms | IP: ::1
+[23-Jul-2026 20:23:13 Europe/Berlin] LOGIN_SUCCESS: User ID: 7, Type: shop (Web), IP: ::1
+[23-Jul-2026 20:23:15 Europe/Berlin] FCM HTTP 200 Response for shop (ID: 7): {
+  "name": "projects/khatalink-63041/messages/b2a15734-451d-4442-a0a8-c5348a4e204f"
+}
+
+[23-Jul-2026 20:23:15 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 1596ms | IP: ::1
+[23-Jul-2026 23:53:15 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 76ms | IP: ::1
+[23-Jul-2026 20:23:16 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 49ms | IP: ::1
+[23-Jul-2026 20:23:38 Europe/Berlin] [API_HIT] /khatalink/shop/Groceries_dashboard.php | Speed: 21ms | IP: ::1
+[23-Jul-2026 20:23:55 Europe/Berlin] [API_HIT] /khatalink/shop/Groceries_quick_orders.php?order_id=29 | Speed: 21ms | IP: ::1
+[23-Jul-2026 20:24:10 Europe/Berlin] [API_HIT] /khatalink/shop/Groceries_dashboard.php | Speed: 9ms | IP: ::1
+[23-Jul-2026 23:54:12 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 35ms | IP: ::1
+[23-Jul-2026 20:24:13 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 11ms | IP: ::1
+[23-Jul-2026 20:24:22 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 6ms | IP: ::1
+[23-Jul-2026 20:24:26 Europe/Berlin] LOGIN_SUCCESS: User ID: 10, Type: customer (Web), IP: ::1
+[23-Jul-2026 20:24:28 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 10): {
+  "name": "projects/khatalink-63041/messages/0cf47139-20a6-41ff-8506-40b82bf2fb4a"
+}
+
+[23-Jul-2026 20:24:29 Europe/Berlin] FCM HTTP 404 Response for customer (ID: 10): {
+  "error": {
+    "code": 404,
+    "message": "NotRegistered",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[23-Jul-2026 20:24:29 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 2951ms | IP: ::1
+[23-Jul-2026 20:24:29 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 13ms | IP: ::1
+[23-Jul-2026 23:54:31 Asia/Kolkata] [API_HIT] /khatalink/customer/Groceries_home.php | Speed: 8ms | IP: ::1
+[23-Jul-2026 20:24:33 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 10:57:18 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 183ms | IP: ::1
+[19-Aug-2026 10:57:48 Europe/Berlin] [API_HIT] /khatalink/auth/register.php?type=customer | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:06:03 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 8ms | IP: ::1
+[19-Aug-2026 11:06:18 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 23ms | IP: ::1
+[19-Aug-2026 11:06:21 Europe/Berlin] LOGIN_SUCCESS: User ID: 10, Type: customer (Web), IP: ::1
+[19-Aug-2026 11:06:22 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 10): {
+  "name": "projects/khatalink-63041/messages/7da2caea-c4f7-4f47-be94-a8bff2e8edf4"
+}
+
+[19-Aug-2026 11:06:23 Europe/Berlin] FCM HTTP 404 Response for customer (ID: 10): {
+  "error": {
+    "code": 404,
+    "message": "NotRegistered",
+    "status": "NOT_FOUND",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "UNREGISTERED"
+      }
+    ]
+  }
+}
+
+[19-Aug-2026 11:06:23 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 1824ms | IP: ::1
+[19-Aug-2026 11:06:23 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 154ms | IP: ::1
+[19-Aug-2026 14:36:34 Asia/Kolkata] [API_HIT] /khatalink/customer/Groceries_home.php | Speed: 22ms | IP: ::1
+[19-Aug-2026 11:06:36 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 11:06:47 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:06:49 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 11:06:59 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 86ms | IP: ::1
+[19-Aug-2026 11:07:08 Europe/Berlin] LOGIN_SUCCESS: User ID: 5, Type: admin, IP: ::1
+[19-Aug-2026 11:07:08 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 96ms | IP: ::1
+[19-Aug-2026 11:07:08 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 66ms | IP: ::1
+[19-Aug-2026 11:07:19 Europe/Berlin] [API_HIT] /khatalink/admin/mall_control.php | Speed: 14ms | IP: ::1
+[19-Aug-2026 11:07:28 Europe/Berlin] [API_HIT] /khatalink/admin/mall_control.php | Speed: 3142ms | IP: ::1
+[19-Aug-2026 14:37:37 Asia/Kolkata] [API_HIT] /khatalink/customer/Groceries_home.php | Speed: 589ms | IP: ::1
+[19-Aug-2026 14:37:42 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 11:07:42 Europe/Berlin] [API_HIT] /khatalink/customer/ajax_sync_cart.php | Speed: 25ms | IP: ::1
+[19-Aug-2026 11:07:42 Europe/Berlin] [API_HIT] /khatalink/customer/ajax_get_registry_location.php?lat=20.340911719782778&lng=85.80790831306646 | Speed: 53ms | IP: ::1
+[19-Aug-2026 14:37:42 Asia/Kolkata] [API_HIT] /khatalink/customer/Groceries_home.php?lat=20.340912&lng=85.807908&radius=15 | Speed: 51ms | IP: ::1
+[19-Aug-2026 11:07:43 Europe/Berlin] [API_HIT] /khatalink/customer/ajax_sync_cart.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 11:07:43 Europe/Berlin] [API_HIT] /khatalink/customer/ajax_get_registry_location.php?lat=20.340912&lng=85.807908 | Speed: 5ms | IP: ::1
+[19-Aug-2026 14:37:43 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 65ms | IP: ::1
+[19-Aug-2026 14:37:55 Asia/Kolkata] [API_HIT] /khatalink/customer/Groceries_home.php?lat=20.340912&lng=85.807908&radius=15 | Speed: 26ms | IP: ::1
+[19-Aug-2026 11:07:55 Europe/Berlin] [API_HIT] /khatalink/customer/ajax_sync_cart.php | Speed: 18ms | IP: ::1
+[19-Aug-2026 11:07:55 Europe/Berlin] [API_HIT] /khatalink/customer/ajax_get_registry_location.php?lat=20.340912&lng=85.807908 | Speed: 14ms | IP: ::1
+[19-Aug-2026 14:37:55 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 11:08:17 Europe/Berlin] [API_HIT] /khatalink/auth/login.php | Speed: 8ms | IP: ::1
+[19-Aug-2026 14:38:25 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 4ms | IP: ::1
+[19-Aug-2026 11:08:29 Europe/Berlin] [API_HIT] /khatalink/auth/login.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 11:08:33 Europe/Berlin] [API_HIT] /khatalink/auth/login.php | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:08:46 Europe/Berlin] [API_HIT] /khatalink/auth/login.php | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:08:49 Europe/Berlin] [API_HIT] /khatalink/auth/register.php?type=shop | Speed: 10ms | IP: ::1
+[19-Aug-2026 14:38:55 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 2ms | IP: ::1
+[19-Aug-2026 11:08:57 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 30ms | IP: ::1
+[19-Aug-2026 11:09:06 Europe/Berlin] [API_HIT] /khatalink/admin/shop_details.php?id=7 | Speed: 14ms | IP: ::1
+[19-Aug-2026 11:09:16 Europe/Berlin] [API_HIT] /khatalink/admin/export_shop_report.php?shop_id=7 | Speed: 15ms | IP: ::1
+[19-Aug-2026 11:09:24 Europe/Berlin] [API_HIT] /khatalink/admin/mall_control.php | Speed: 8ms | IP: ::1
+[19-Aug-2026 14:39:25 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 11:09:26 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 12ms | IP: ::1
+[19-Aug-2026 11:09:40 Europe/Berlin] [API_HIT] /khatalink/admin/geo_registry_manager.php | Speed: 24ms | IP: ::1
+[19-Aug-2026 14:39:55 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 11:09:58 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 23ms | IP: ::1
+[19-Aug-2026 14:40:25 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 14:40:55 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 14:42:11 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 14:43:12 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 4ms | IP: ::1
+[19-Aug-2026 11:13:55 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 55ms | IP: ::1
+[19-Aug-2026 11:13:57 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 11:13:58 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 14:44:11 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 2ms | IP: ::1
+[19-Aug-2026 11:14:22 Europe/Berlin] [API_HIT] /khatalink/admin/settlement_history.php | Speed: 19ms | IP: ::1
+[19-Aug-2026 14:45:11 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:16:06 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 12ms | IP: ::1
+[19-Aug-2026 14:46:11 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 11:16:21 Europe/Berlin] [API_HIT] /khatalink/admin/ajax_factory_reset.php | Speed: 821ms | IP: ::1
+[19-Aug-2026 11:16:24 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 21ms | IP: ::1
+[19-Aug-2026 11:16:33 Europe/Berlin] [API_HIT] /khatalink/admin/geo_registry_manager.php | Speed: 20ms | IP: ::1
+[19-Aug-2026 11:16:37 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 14:46:44 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 52ms | IP: ::1
+[19-Aug-2026 14:46:44 Asia/Kolkata] [API_HIT] /khatalink/customer/ajax_get_mall_status.php | Speed: 14ms | IP: ::1
+[19-Aug-2026 11:16:46 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 21ms | IP: ::1
+[19-Aug-2026 11:16:46 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer&error=Invalid%20session.%20Please%20login%20again. | Speed: 7ms | IP: ::1
+[19-Aug-2026 11:16:49 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer&error=Invalid%20session.%20Please%20login%20again. | Speed: 7ms | IP: ::1
+[19-Aug-2026 11:17:02 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:17:02 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 11:17:06 Europe/Berlin] LOGIN_SUCCESS: User ID: 5, Type: admin, IP: ::1
+[19-Aug-2026 11:17:06 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 89ms | IP: ::1
+[19-Aug-2026 11:17:06 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:17:10 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 32ms | IP: ::1
+[19-Aug-2026 11:17:28 Europe/Berlin] [API_HIT] /khatalink/admin/mall_control.php | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:17:34 Europe/Berlin] [API_HIT] /khatalink/admin/manage_categories.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:17:40 Europe/Berlin] [API_HIT] /khatalink/admin/customers.php | Speed: 51ms | IP: ::1
+[19-Aug-2026 11:17:43 Europe/Berlin] PHP Warning:  Undefined array key "page_url" in D:\xampp\htdocs\khatalink\admin\visitors.php on line 145
+[19-Aug-2026 11:17:43 Europe/Berlin] PHP Warning:  Undefined array key "page_url" in D:\xampp\htdocs\khatalink\admin\visitors.php on line 146
+[19-Aug-2026 11:17:43 Europe/Berlin] [API_HIT] /khatalink/admin/visitors.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 11:17:47 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:17:51 Europe/Berlin] [API_HIT] /khatalink/admin/manage_coupons.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 11:17:56 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 11:18:32 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 8ms | IP: ::1
+[19-Aug-2026 11:18:39 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:18:52 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:19:01 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 4ms | IP: ::1
+[19-Aug-2026 11:19:01 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 4ms | IP: ::1
+[19-Aug-2026 11:19:22 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer&error=Invalid%20session.%20Please%20login%20again. | Speed: 7ms | IP: ::1
+[19-Aug-2026 11:21:12 Europe/Berlin] [API_HIT] /khatalink/admin/hacker_terminal.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:21:13 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 16ms | IP: ::1
+[19-Aug-2026 11:21:19 Europe/Berlin] [API_HIT] /khatalink/admin/mall_shops.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 11:21:24 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 18ms | IP: ::1
+[19-Aug-2026 11:25:35 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 85ms | IP: ::1
+[19-Aug-2026 11:25:40 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 15ms | IP: ::1
+[19-Aug-2026 11:27:43 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 22ms | IP: ::1
+[19-Aug-2026 11:28:02 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 19ms | IP: ::1
+[19-Aug-2026 11:28:10 Europe/Berlin] [API_HIT] /khatalink/admin/geo_registry_manager.php | Speed: 25ms | IP: ::1
+[19-Aug-2026 11:28:55 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 15ms | IP: ::1
+[19-Aug-2026 11:29:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'oi.product_name' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:99
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(99): PDO->query('\r\n    SELECT oi...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 99
+[19-Aug-2026 11:29:21 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 16ms | IP: ::1
+[19-Aug-2026 11:34:02 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 11:37:46 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 41ms | IP: ::1
+[19-Aug-2026 11:37:49 Europe/Berlin] [API_HIT] /khatalink/admin/export_analytics_pdf.php?shop_id=0 | Speed: 8ms | IP: ::1
+[19-Aug-2026 11:38:39 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 24ms | IP: ::1
+[19-Aug-2026 11:38:50 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 43ms | IP: ::1
+[19-Aug-2026 11:39:09 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 152ms | IP: ::1
+[19-Aug-2026 11:39:18 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 24ms | IP: ::1
+[19-Aug-2026 11:39:25 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 7ms | IP: ::1
+[19-Aug-2026 11:39:28 Europe/Berlin] [API_HIT] /khatalink/admin/customers.php | Speed: 45ms | IP: ::1
+[19-Aug-2026 11:39:49 Europe/Berlin] [API_HIT] /khatalink/admin/customers.php | Speed: 83ms | IP: ::1
+[19-Aug-2026 11:39:49 Europe/Berlin] [API_HIT] /khatalink/admin/customers.php?success=Customer%20added!%20Unique%20ID:%20CUST-2026-86A90E | Speed: 34ms | IP: ::1
+[19-Aug-2026 11:39:57 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 7ms | IP: ::1
+[19-Aug-2026 11:40:08 Europe/Berlin] LOGIN_SUCCESS: User ID: 1, Type: shop (Web), IP: ::1
+[19-Aug-2026 11:40:09 Europe/Berlin] FCM HTTP 200 Response for shop (ID: 1): {
+  "name": "projects/khatalink-63041/messages/d3837f42-52f8-4ce8-ab88-9177d300fe22"
+}
+
+[19-Aug-2026 11:40:09 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 1042ms | IP: ::1
+[19-Aug-2026 15:10:09 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 44ms | IP: ::1
+[19-Aug-2026 11:40:10 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 11:40:47 Europe/Berlin] [API_HIT] /khatalink/auth/login.php | Speed: 90ms | IP: ::1
+[19-Aug-2026 11:41:01 Europe/Berlin] LOGIN_SUCCESS: User ID: 1, Type: customer (Web), IP: ::1
+[19-Aug-2026 11:41:02 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 1): {
+  "name": "projects/khatalink-63041/messages/193d3e90-abec-4351-84da-144f4ad70751"
+}
+
+[19-Aug-2026 11:41:02 Europe/Berlin] [API_HIT] /khatalink/auth/login.php | Speed: 898ms | IP: ::1
+[19-Aug-2026 11:41:02 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 50ms | IP: ::1
+[19-Aug-2026 11:41:13 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 16ms | IP: ::1
+[19-Aug-2026 11:41:26 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 11:41:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(cre...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:41:38 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 11ms | IP: ::1
+[19-Aug-2026 11:42:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:42:38 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 11ms | IP: ::1
+[19-Aug-2026 11:42:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:42:40 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:42:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:42:42 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:46:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:46:07 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 19ms | IP: ::1
+[19-Aug-2026 11:46:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:46:08 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:46:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:46:08 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 4ms | IP: ::1
+[19-Aug-2026 11:46:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:46:08 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:46:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:46:09 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:48:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:06 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 16ms | IP: ::1
+[19-Aug-2026 11:48:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:07 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:48:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:08 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:48:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:08 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:48:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:08 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:48:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:08 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:48:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:09 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 7ms | IP: ::1
+[19-Aug-2026 11:48:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:09 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:48:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:09 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 4ms | IP: ::1
+[19-Aug-2026 11:48:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'field list' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(lin...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:48:20 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 8ms | IP: ::1
+[19-Aug-2026 11:50:04 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:04 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 15ms | IP: ::1
+[19-Aug-2026 11:50:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:05 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:50:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:05 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 12ms | IP: ::1
+[19-Aug-2026 11:50:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:05 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 12ms | IP: ::1
+[19-Aug-2026 11:50:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:06 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 4ms | IP: ::1
+[19-Aug-2026 11:50:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:06 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 8ms | IP: ::1
+[19-Aug-2026 11:50:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:06 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 5ms | IP: ::1
+[19-Aug-2026 11:50:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:06 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 6ms | IP: ::1
+[19-Aug-2026 11:50:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:07 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 10ms | IP: ::1
+[19-Aug-2026 11:50:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'linked_at' in 'where clause' in D:\xampp\htdocs\khatalink\admin\data_analytics.php:44
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(44): PDO->query('SELECT DATE(add...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 44
+[19-Aug-2026 11:50:07 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 9ms | IP: ::1
+[19-Aug-2026 11:53:42 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php?shop_id=1 | Speed: 39ms | IP: ::1
+[19-Aug-2026 11:53:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o.shop_id' in 'where clause' in D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php:31
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php(31): PDO->query('\r\n    SELECT DA...')
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php on line 31
+[19-Aug-2026 11:53:54 Europe/Berlin] [API_HIT] /khatalink/admin/export_analytics_pdf.php?shop_id=1 | Speed: 7ms | IP: ::1
+[19-Aug-2026 11:56:20 Europe/Berlin] [API_HIT] /khatalink/admin/export_analytics_pdf.php?shop_id=1 | Speed: 15ms | IP: ::1
+[19-Aug-2026 11:56:29 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 22ms | IP: ::1
+[19-Aug-2026 11:56:37 Europe/Berlin] [API_HIT] /khatalink/admin/error_monitoring.php | Speed: 19ms | IP: ::1
+[19-Aug-2026 15:33:46 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 117ms | IP: ::1
+[19-Aug-2026 12:03:47 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 30ms | IP: ::1
+[19-Aug-2026 12:03:49 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 12:03:53 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:03:53 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:03:53 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:03:53 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:03:53 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:03:53 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:03:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:03:53 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 19ms | IP: ::1
+[19-Aug-2026 12:05:38 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:38 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:38 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:38 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:38 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:38 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:38 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 16ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 17ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 12ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:39 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 12ms | IP: ::1
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:39 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 69
+[19-Aug-2026 12:05:40 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 82
+[19-Aug-2026 12:05:40 Europe/Berlin] PHP Warning:  Undefined variable $start_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:40 Europe/Berlin] PHP Warning:  Undefined variable $end_date in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:40 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\data_analytics.php:87
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\data_analytics.php(87): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\data_analytics.php on line 87
+[19-Aug-2026 12:05:40 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 12:07:04 Europe/Berlin] [API_HIT] /khatalink/admin/data_analytics.php | Speed: 137ms | IP: ::1
+[19-Aug-2026 12:07:11 Europe/Berlin] PHP Warning:  Undefined variable $shop_where_clause in D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php on line 97
+[19-Aug-2026 12:07:11 Europe/Berlin] PHP Warning:  Undefined variable $params in D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php on line 102
+[19-Aug-2026 12:07:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php:102
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php(102): array_merge(Array, NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\admin\export_analytics_pdf.php on line 102
+[19-Aug-2026 12:07:11 Europe/Berlin] [API_HIT] /khatalink/admin/export_analytics_pdf.php?shop_id=0&start_date=2026-07-21&end_date=2026-08-19 | Speed: 10ms | IP: ::1
+[19-Aug-2026 12:09:26 Europe/Berlin] [API_HIT] /khatalink/admin/export_analytics_pdf.php?shop_id=0&start_date=2026-07-21&end_date=2026-08-19 | Speed: 18ms | IP: ::1
+[19-Aug-2026 12:09:40 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 21ms | IP: ::1
+[19-Aug-2026 17:39:24 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 386ms | IP: ::1
+[19-Aug-2026 17:39:24 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 21ms | IP: ::1
+[19-Aug-2026 17:39:29 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 9ms | IP: ::1
+[19-Aug-2026 20:02:59 Europe/Berlin] LOGIN_SUCCESS: User ID: 5, Type: admin, IP: ::1
+[19-Aug-2026 20:02:59 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 305ms | IP: ::1
+[19-Aug-2026 20:02:59 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 37ms | IP: ::1
+[19-Aug-2026 20:24:31 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 23ms | IP: ::1
+[19-Aug-2026 20:24:44 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 5ms | IP: ::1
+[20-Aug-2026 00:00:02 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 624ms | IP: ::1
+[19-Aug-2026 20:30:02 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 33ms | IP: ::1
+[19-Aug-2026 20:30:06 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 654ms | IP: ::1
+[19-Aug-2026 20:30:17 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 115ms | IP: ::1
+[19-Aug-2026 20:30:59 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 24ms | IP: ::1
+[19-Aug-2026 20:31:02 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 696ms | IP: ::1
+[19-Aug-2026 20:31:11 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 20ms | IP: ::1
+[19-Aug-2026 20:31:25 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 13ms | IP: ::1
+[19-Aug-2026 20:31:38 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 6ms | IP: ::1
+[19-Aug-2026 20:31:42 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 90ms | IP: ::1
+[19-Aug-2026 20:31:48 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 166ms | IP: ::1
+[19-Aug-2026 20:32:04 Europe/Berlin] LOGIN_SUCCESS: User ID: 1, Type: shop (Web), IP: ::1
+[19-Aug-2026 20:32:07 Europe/Berlin] FCM HTTP 200 Response for shop (ID: 1): {
+  "name": "projects/khatalink-63041/messages/e200bc34-a788-47cd-87e4-e3b75154090f"
+}
+
+[19-Aug-2026 20:32:07 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 4490ms | IP: ::1
+[20-Aug-2026 00:02:08 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 503
+[20-Aug-2026 00:02:08 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 551ms | IP: ::1
+[19-Aug-2026 20:32:09 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 34ms | IP: ::1
+[20-Aug-2026 00:02:20 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 503
+[20-Aug-2026 00:02:20 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 83ms | IP: ::1
+[19-Aug-2026 20:32:21 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 39ms | IP: ::1
+[19-Aug-2026 20:34:46 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 127ms | IP: ::1
+[19-Aug-2026 20:43:15 Europe/Berlin] [API_HIT] /khatalink/shop/create_promotion.php | Speed: 94ms | IP: ::1
+[20-Aug-2026 00:14:43 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 503
+[20-Aug-2026 00:14:43 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 369ms | IP: ::1
+[19-Aug-2026 20:44:44 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 18ms | IP: ::1
+[19-Aug-2026 20:44:54 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 5ms | IP: ::1
+[19-Aug-2026 20:45:04 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 24ms | IP: ::1
+[19-Aug-2026 20:45:17 Europe/Berlin] [API_HIT] /khatalink/admin/shops.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 20:45:17 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 20:45:20 Europe/Berlin] LOGIN_SUCCESS: User ID: 5, Type: admin, IP: ::1
+[19-Aug-2026 20:45:20 Europe/Berlin] [API_HIT] /khatalink/admin/login.php | Speed: 85ms | IP: ::1
+[19-Aug-2026 20:45:20 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 17ms | IP: ::1
+[19-Aug-2026 20:45:23 Europe/Berlin] [API_HIT] /khatalink/admin/customers.php | Speed: 47ms | IP: ::1
+[19-Aug-2026 20:45:34 Europe/Berlin] LOGIN_SUCCESS: User ID: 1, Type: customer (Web), IP: ::1
+[19-Aug-2026 20:45:35 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 1): {
+  "name": "projects/khatalink-63041/messages/ad1b1fc5-deb3-4ce4-b451-06628e898de1"
+}
+
+[19-Aug-2026 20:45:35 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 1348ms | IP: ::1
+[19-Aug-2026 20:45:36 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 70ms | IP: ::1
+[19-Aug-2026 20:45:50 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_create_promotion.php | Speed: 44ms | IP: ::1
+[19-Aug-2026 20:45:55 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_create_promotion.php | Speed: 4ms | IP: ::1
+[19-Aug-2026 20:45:59 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 2ms | IP: ::1
+[19-Aug-2026 20:45:59 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 3ms | IP: ::1
+[19-Aug-2026 20:46:03 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 9ms | IP: ::1
+[19-Aug-2026 20:46:11 Europe/Berlin] LOGIN_SUCCESS: User ID: 1, Type: shop (Web), IP: ::1
+[19-Aug-2026 20:46:12 Europe/Berlin] FCM HTTP 200 Response for shop (ID: 1): {
+  "name": "projects/khatalink-63041/messages/c277b665-9548-4b5d-bc76-bc88a6a3a52c"
+}
+
+[19-Aug-2026 20:46:12 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 1014ms | IP: ::1
+[20-Aug-2026 00:16:12 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 503
+[20-Aug-2026 00:16:12 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 63ms | IP: ::1
+[19-Aug-2026 20:46:12 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 7ms | IP: ::1
+[19-Aug-2026 20:46:15 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 9ms | IP: ::1
+[19-Aug-2026 20:46:17 Europe/Berlin] [API_HIT] /khatalink/shop/create_promotion.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 20:46:26 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_create_promotion.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 20:46:32 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 9ms | IP: ::1
+[19-Aug-2026 20:46:34 Europe/Berlin] [API_HIT] /khatalink/shop/create_promotion.php | Speed: 8ms | IP: ::1
+[19-Aug-2026 20:46:37 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 7ms | IP: ::1
+[20-Aug-2026 00:16:41 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 503
+[20-Aug-2026 00:16:41 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 50ms | IP: ::1
+[19-Aug-2026 20:46:41 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 20:46:48 Europe/Berlin] [API_HIT] /khatalink/shop/add_customer.php | Speed: 12ms | IP: ::1
+[19-Aug-2026 20:46:57 Europe/Berlin] [API_HIT] /khatalink/customer/profile.php | Speed: 6ms | IP: ::1
+[19-Aug-2026 20:47:11 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 27ms | IP: ::1
+[19-Aug-2026 20:47:18 Europe/Berlin] [API_HIT] /khatalink/customer/profile.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 20:47:31 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 1): {
+  "name": "projects/khatalink-63041/messages/07242b59-d50a-4d57-9dae-b0a8f4564ac3"
+}
+
+[19-Aug-2026 20:47:31 Europe/Berlin] [API_HIT] /khatalink/shop/add_customer.php | Speed: 1002ms | IP: ::1
+[19-Aug-2026 20:47:34 Europe/Berlin] [API_HIT] /khatalink/shop/add_customer.php | Speed: 8ms | IP: ::1
+[20-Aug-2026 00:17:35 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 503
+[20-Aug-2026 00:17:35 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 38ms | IP: ::1
+[19-Aug-2026 20:47:35 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 20:47:37 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 14ms | IP: ::1
+[19-Aug-2026 20:47:39 Europe/Berlin] [API_HIT] /khatalink/shop/create_promotion.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 20:47:49 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 1): {
+  "name": "projects/khatalink-63041/messages/1a49deff-cf61-4787-8fdf-0d2a72ae416e"
+}
+
+[19-Aug-2026 20:47:49 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_create_promotion.php | Speed: 1289ms | IP: ::1
+[19-Aug-2026 20:47:51 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 18ms | IP: ::1
+[19-Aug-2026 20:48:02 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 35ms | IP: ::1
+[19-Aug-2026 20:51:53 Europe/Berlin] [API_HIT] /khatalink/shop/create_promotion.php | Speed: 103ms | IP: ::1
+[19-Aug-2026 20:51:54 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 27ms | IP: ::1
+[20-Aug-2026 00:21:56 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:21:56 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 73ms | IP: ::1
+[19-Aug-2026 20:51:56 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 35ms | IP: ::1
+[19-Aug-2026 20:52:02 Europe/Berlin] [API_HIT] /khatalink/shop/analytics.php | Speed: 21ms | IP: ::1
+[20-Aug-2026 00:22:11 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:22:11 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 51ms | IP: ::1
+[19-Aug-2026 20:52:11 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 12ms | IP: ::1
+[20-Aug-2026 00:22:16 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:22:16 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 40ms | IP: ::1
+[19-Aug-2026 20:52:17 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 7ms | IP: ::1
+[19-Aug-2026 20:53:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'khatalink.shop_customer_analytics' doesn't exist in D:\xampp\htdocs\khatalink\shop\customer_analytics.php:22
+Stack trace:
+#0 D:\xampp\htdocs\khatalink\shop\customer_analytics.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in D:\xampp\htdocs\khatalink\shop\customer_analytics.php on line 22
+[19-Aug-2026 20:53:33 Europe/Berlin] [API_HIT] /khatalink/shop/customer_analytics.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 20:53:57 Europe/Berlin] [API_HIT] /khatalink/admin/dashboard.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 20:54:00 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 3ms | IP: ::1
+[19-Aug-2026 20:54:11 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 20:54:12 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 846ms | IP: ::1
+[19-Aug-2026 20:54:24 Europe/Berlin] [API_HIT] /khatalink/admin/db_explorer.php | Speed: 451ms | IP: ::1
+[19-Aug-2026 20:54:28 Europe/Berlin] [API_HIT] /khatalink/shop/customer_analytics.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 20:54:36 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 12ms | IP: ::1
+[20-Aug-2026 00:25:36 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:25:36 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 100ms | IP: ::1
+[19-Aug-2026 20:55:36 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 14ms | IP: ::1
+[19-Aug-2026 20:55:43 Europe/Berlin] [API_HIT] /khatalink/shop/Groceries_dashboard.php | Speed: 9ms | IP: ::1
+[20-Aug-2026 00:25:49 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:25:49 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 39ms | IP: ::1
+[19-Aug-2026 20:55:49 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 12ms | IP: ::1
+[19-Aug-2026 20:56:00 Europe/Berlin] [API_HIT] /khatalink/shop/razorpay_guide.php | Speed: 5ms | IP: ::1
+[20-Aug-2026 00:26:12 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:26:12 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 49ms | IP: ::1
+[19-Aug-2026 20:56:12 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 10ms | IP: ::1
+[20-Aug-2026 00:26:21 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:26:21 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 39ms | IP: ::1
+[19-Aug-2026 20:56:21 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 20:56:30 Europe/Berlin] [API_HIT] /khatalink/shop/customers.php | Speed: 14ms | IP: ::1
+[20-Aug-2026 00:26:39 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:26:39 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 42ms | IP: ::1
+[19-Aug-2026 20:56:39 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 10ms | IP: ::1
+[19-Aug-2026 20:56:41 Europe/Berlin] [API_HIT] /khatalink/shop/voice_billing.php | Speed: 13ms | IP: ::1
+[20-Aug-2026 00:26:44 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:26:44 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 36ms | IP: ::1
+[19-Aug-2026 20:56:44 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 7ms | IP: ::1
+[19-Aug-2026 20:56:46 Europe/Berlin] [API_HIT] /khatalink/shop/inventory.php | Speed: 83ms | IP: ::1
+[20-Aug-2026 00:26:50 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:26:50 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 42ms | IP: ::1
+[19-Aug-2026 20:56:51 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 29ms | IP: ::1
+[20-Aug-2026 00:28:13 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 00:28:13 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 47ms | IP: ::1
+[19-Aug-2026 20:58:13 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 30ms | IP: ::1
+[19-Aug-2026 20:58:17 Europe/Berlin] [API_HIT] /khatalink/customer/dashboard.php | Speed: 27ms | IP: ::1
+[19-Aug-2026 20:58:32 Europe/Berlin] [API_HIT] /khatalink/shop/customer_analytics.php | Speed: 13ms | IP: ::1
+[19-Aug-2026 20:58:34 Europe/Berlin] [API_HIT] /khatalink/shop/promotions.php | Speed: 15ms | IP: ::1
+[19-Aug-2026 20:58:38 Europe/Berlin] [API_HIT] /khatalink/shop/create_promotion.php | Speed: 5ms | IP: ::1
+[19-Aug-2026 20:58:48 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 1): {
+  "name": "projects/khatalink-63041/messages/cb07661c-52b3-4e41-8610-3cf777065f9a"
+}
+
+[19-Aug-2026 20:58:48 Europe/Berlin] PHP Warning:  require_once(D:\xampp\htdocs\khatalink\shop/db.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\khatalink\shop\ajax_create_promotion.php on line 125
+[19-Aug-2026 20:58:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\khatalink\shop/db.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\khatalink\shop\ajax_create_promotion.php:125
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\khatalink\shop\ajax_create_promotion.php on line 125
+[19-Aug-2026 20:58:48 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_create_promotion.php | Speed: 1219ms | IP: ::1
+[19-Aug-2026 20:58:55 Europe/Berlin] FCM HTTP 200 Response for customer (ID: 1): {
+  "name": "projects/khatalink-63041/messages/624c56ae-b942-462f-9625-74ec3b1a1aad"
+}
+
+[19-Aug-2026 20:58:55 Europe/Berlin] PHP Warning:  require_once(D:\xampp\htdocs\khatalink\shop/db.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\khatalink\shop\ajax_create_promotion.php on line 125
+[19-Aug-2026 20:58:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\xampp\htdocs\khatalink\shop/db.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\khatalink\shop\ajax_create_promotion.php:125
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\khatalink\shop\ajax_create_promotion.php on line 125
+[19-Aug-2026 20:58:55 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_create_promotion.php | Speed: 1051ms | IP: ::1
+[19-Aug-2026 21:33:24 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 80ms | IP: ::1
+[19-Aug-2026 21:33:26 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 138ms | IP: ::1
+[19-Aug-2026 21:33:33 Europe/Berlin] LOGIN_SUCCESS: User ID: 1, Type: shop (Web), IP: ::1
+[19-Aug-2026 21:33:34 Europe/Berlin] FCM HTTP 200 Response for shop (ID: 1): {
+  "name": "projects/khatalink-63041/messages/12ba94f5-804b-44b4-873d-7f6baf906530"
+}
+
+[19-Aug-2026 21:33:34 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=shop | Speed: 1489ms | IP: ::1
+[20-Aug-2026 01:03:34 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 01:03:34 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 114ms | IP: ::1
+[19-Aug-2026 21:33:35 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 8ms | IP: ::1
+[20-Aug-2026 01:44:35 Asia/Kolkata] PHP Warning:  Undefined variable $current_page in D:\xampp\htdocs\khatalink\shop\dashboard.php on line 509
+[20-Aug-2026 01:44:35 Asia/Kolkata] [API_HIT] /khatalink/shop/dashboard.php | Speed: 120ms | IP: ::1
+[19-Aug-2026 22:14:36 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_save_token.php | Speed: 44ms | IP: ::1
+[19-Aug-2026 22:14:58 Europe/Berlin] [API_HIT] /khatalink/shop/analytics.php | Speed: 21ms | IP: ::1
+[19-Aug-2026 22:17:20 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 1161ms | IP: ::1
+[19-Aug-2026 22:17:30 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 116ms | IP: ::1
+[19-Aug-2026 22:17:37 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 55ms | IP: ::1
+[19-Aug-2026 22:17:47 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 22:17:52 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 94ms | IP: ::1
+[19-Aug-2026 22:19:48 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 785ms | IP: ::1
+[19-Aug-2026 22:19:55 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 87ms | IP: ::1
+[19-Aug-2026 22:20:07 Europe/Berlin] [API_HIT] /khatalink/shop/analytics.php | Speed: 31ms | IP: ::1
+[19-Aug-2026 22:20:12 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 15ms | IP: ::1
+[19-Aug-2026 22:20:51 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 233ms | IP: ::1
+[19-Aug-2026 22:20:53 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 26ms | IP: ::1
+[19-Aug-2026 22:20:55 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 36ms | IP: ::1
+[19-Aug-2026 22:20:58 Europe/Berlin] [API_HIT] /khatalink/shop/analytics.php | Speed: 25ms | IP: ::1
+[19-Aug-2026 22:21:03 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 8ms | IP: ::1
+[19-Aug-2026 22:21:05 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 31ms | IP: ::1
+[19-Aug-2026 22:21:08 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 24ms | IP: ::1
+[19-Aug-2026 22:22:52 Europe/Berlin] [API_HIT] /khatalink/shop/analytics.php | Speed: 297ms | IP: ::1
+[19-Aug-2026 22:23:03 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 352ms | IP: ::1
+[19-Aug-2026 22:23:11 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 30ms | IP: ::1
+[19-Aug-2026 22:23:23 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 9ms | IP: ::1
+[19-Aug-2026 22:23:29 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 27ms | IP: ::1
+[19-Aug-2026 22:23:49 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 103ms | IP: ::1
+[19-Aug-2026 22:24:18 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 49ms | IP: ::1
+[19-Aug-2026 22:25:03 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 50ms | IP: ::1
+[19-Aug-2026 22:25:16 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 75ms | IP: ::1
+[19-Aug-2026 22:27:50 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 60ms | IP: ::1
+[19-Aug-2026 22:30:29 Europe/Berlin] [API_HIT] /khatalink/shop/analytics.php | Speed: 40ms | IP: ::1
+[19-Aug-2026 22:30:34 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 110ms | IP: ::1
+[19-Aug-2026 22:30:44 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 21ms | IP: ::1
+[19-Aug-2026 22:30:52 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 33ms | IP: ::1
+[19-Aug-2026 22:30:56 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 31ms | IP: ::1
+[19-Aug-2026 22:31:02 Europe/Berlin] AI Handler Error: Failed to connect to Python service. HTTP Code: 500. Response: Internal Server Error
+[19-Aug-2026 22:31:02 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 39ms | IP: ::1
+[19-Aug-2026 22:31:22 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 11ms | IP: ::1
+[19-Aug-2026 22:31:47 Europe/Berlin] [API_HIT] /khatalink/shop/ajax_ai_handler.php | Speed: 28ms | IP: ::1
+[20-Aug-2026 08:43:27 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 373ms | IP: ::1
+[20-Aug-2026 08:43:41 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 20ms | IP: ::1
+[20-Aug-2026 08:43:46 Europe/Berlin] [API_HIT] /khatalink/auth/login.php?type=customer | Speed: 8ms | IP: ::1

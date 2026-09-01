@@ -152,7 +152,7 @@ $total_pages = ceil($total_filtered / $limit);
 </head>
 <body class="bg-slate-50 text-slate-900 font-[Inter]">
 
-<div class="fixed inset-0 bg-slate-900/40 z-[998] hidden backdrop-blur-sm transition-opacity" id="overlay" onclick="closeSidebar()"></div>
+<div class="fixed inset-0 bg-slate-900/40 z-[0998] hidden backdrop-blur-sm transition-opacity" id="overlay" onclick="closeSidebar()"></div>
 
 <!-- Navbar -->
 <nav class="sticky top-0 z-[1000] bg-white border-b border-slate-200 h-16 flex items-center justify-between px-4 md:px-8 shadow-sm">
